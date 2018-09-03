@@ -15,96 +15,235 @@
 <body style="background-color:#d8dfea" >
 
 <nav class="navbar navbar-light" style="background-color:#3b5998;">
-   <p style="color: #FFFFFF; font-size:40px; font-family: Aharoni; text-align: center; ">facebook</p>
-  <form class="form-inline">
 
+   <p style="color: #FFFFFF; font-size:40px; font-family: Aharoni; text-align: center; ">facebook</p>
+
+  <form class="form-inline">
     <div class="row">
       <div class="col" style="padding: 5px;"><p style="color: #FFFFFF;  font-size:15px; ">Email ou telefone</p>
-         <input  type="search" aria-label="Search" style="width: 215px;">
+         <input  type="email" aria-label="Search" style="width: 215px;">
       </div>
+
       <div class="col" style="padding: 5px;">
         <p style="color: #FFFFFF;  font-size:15px;">Senha</p>
-        <input type="search" aria-label="Search" style="width: 215px;">
+        <input type="email" aria-label="Search" style="width: 215px;">
         <p style="color:#afbdd4 ; font-size:15px; ">Esqueceu a conta?</p>
       </div>
     </div>
-    <div class="col">
+     <div class="col">
           <a href="feed.html"><button type="submit" style="background-color:#104E8B; font-size:15px; color: #FFFFFF">Entrar</button></a>
     </div>
-
   </form> 
  </nav>
 
  <div class="container-fluid" style="background-color: #ffffff; ">
-
   <div class="row"> 
     <div class="col"> 
-
-     <p><h4 style="text-align: left;">
-      O Facebook ajuda você a se conectar e </h4></p>
-       <p><h4 style="text-align: left;">
-      compartilhar com as pessoas que fazem parte </h4></p>
-       <p><h4 style="text-align: left;">
-       da sua vida.</h4></p> </div>
+     <h4 style="text-align: left;">
+      O Facebook ajuda você a se conectar e </h4>
+     <h4 style="text-align: left;">
+      compartilhar com as pessoas que fazem parte </h4>
+     <h4 style="text-align: left;">
+       da sua vida.</h4> 
+     </div>
+     <div class="col"> 
+        <h1  style="text-align: right;">Abra uma conta</h1>
+        <h5  style="text-align: right;">É gratuito e sempre será.</h5></div>
   </div>
- 
-  
  </div>
  
  <div class="container-fluid" >
+  <div class="form-row" style="align-self: left;">
    <img src="imgs/cadastro.jpg" style="align-self: left; height: 250px;">
-
-   <form class="needs-validation" novalidate style="align-self: right;">
+ </div>
+  
+ 
+ <div class="form-row" style="align-self: right;">
+   <form class="needs-validation" novalidate >
   <div class="form-row">
-    <div class="col-md-4 mb-3">
+    <div class="col-md-3 mb-5">
       <label for="validationCustom01"></label>
-      <input type="text" class="form-control" id="validationCustom01" placeholder="Nome"  required>
-      <div class="valid-feedback">
-        Looks good!
-      </div>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="Nome">
     </div>
-    <div class="col-md-4 mb-3">
+    <div class="col-md-3 mb-5">
       <label for="validationCustom02"></label>
-      <input type="text" class="form-control" id="validationCustom02" placeholder="Sobrenome"  required>
-      <div class="valid-feedback">
-        Looks good!
-      </div>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Sobrenome"  >
     </div>
   </div>
 
   <div class="form-row">
     <div class="col-md-6 mb-3">
       <label for="validationCustom03"></label>
-      <input type="text" class="form-control" id="validationCustom03" placeholder="Celular ou email" required>
-      <div class="invalid-feedback">
-        Please provide a valid city.
-      </div>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="Celular ou email" >
     </div>
   </div>
 
   <div class="form-row">
-    <div class="col-md-6 mb-3">
+   <div class="col-md-6 mb-3">
       <label for="validationCustom03"></label>
-      <input type="password" class="form-control" id="validationCustom03" placeholder="Nova senha" required>
-      <div class="invalid-feedback">
-        Please provide a valid city.
-      </div>
+      <input type="password" class="form-control" id="validationCustom03" placeholder="Nova senha" >
     </div>
   </div>
 
+<div class="form-row">
+  <div class="col">
+<div class="form-group">
+    <h6>Data de nascimento</h6>
+    <select class="form-control"  style="width: 90px;">
+      <option>Dia</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+      <option>10</option>
+      <option>11</option>
+      <option>12</option>
+      <option>13</option>
+      <option>14</option>
+      <option>15</option>
+      <option>16</option> 
+      <option>17</option>
+      <option>18</option>
+      <option>19</option>
+      <option>20</option>
+      <option>21</option> 
+      <option>22</option>
+      <option>23</option>
+      <option>24</option>
+      <option>25</option>
+      <option>26</option>
+      <option>27</option>
+      <option>28</option>
+      <option>29</option>
+      <option>30</option>
+      <option>31</option>
+    </select>
+  </div>
+</div>
+
+<div class="col">
   <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-      <label class="form-check-label" for="invalidCheck">
-        Agree to terms and conditions
-      </label>
-      <div class="invalid-feedback">
-        You must agree before submitting.
-      </div>
-    </div>
+    <label for="exampleFormControlSelect1"></label>
+    <select class="form-control"  style="width:90px;">
+      <option>Mês</option>
+      <option>Jan</option>
+      <option>Fev</option>
+      <option>Mar</option>
+      <option>Abr</option>
+      <option>Mai</option>
+      <option>Jun</option>
+      <option>Jul</option>
+      <option>Ago</option>
+      <option>Set</option>
+      <option>Out</option>
+      <option>Nov</option>
+      <option>Dez</option>
+    </select>
   </div>
-  <button class="btn btn-primary" type="submit">Submit form</button>
+</div>
+
+<div class="col">
+  <div class="form-group">
+    <label for="exampleFormControlSelect1"></label>
+    <select class="form-control"  style="width: 85px;">
+      <option>Ano</option>
+      <option>2018</option>
+      <option>2017</option>
+      <option>2016</option>
+      <option>2015</option>
+      <option>2014</option>
+      <option>2013</option>
+      <option>2012</option>
+      <option>2011</option>
+      <option>2010</option>
+      <option>2009</option>
+      <option>2008</option>
+      <option>2007</option>
+      <option>2006</option>
+      <option>2005</option>
+      <option>2004</option>
+      <option>2003</option>
+      <option>2002</option>
+      <option>2001</option>
+      <option>1999</option>
+      <option>1998</option>
+      <option>1997</option>
+      <option>1996</option>
+      <option>1995</option>
+      <option>1994</option>
+      <option>1993</option>
+      <option>1992</option>
+      <option>1991</option>
+      <option>1990</option>
+      <option>1989</option>
+      <option>1988</option>
+      <option>1987</option>
+      <option>1986</option>
+      <option>1985</option>
+      <option>1984</option>
+      <option>1983</option>
+      <option>1982</option>
+      <option>1981</option>
+      <option>1980</option>
+      <option>1979</option>
+      <option>1978</option>
+      <option>1977</option>
+      <option>1976</option>
+      <option>1975</option>
+      <option>1974</option>
+      <option>1973</option>
+      <option>1972</option>
+      <option>1971</option>
+      <option>1970</option>
+      <option>1969</option>
+      <option>1968</option>
+      <option>1967</option>
+      <option>1966</option>
+      <option>1965</option>
+      <option>1964</option>
+      <option>1963</option>
+      <option>1962</option>
+      <option>1961</option>
+      <option>1960</option>
+      <option>1959</option>
+      <option>1958</option>
+      <option>1957</option>
+      <option>1956</option>
+      <option>1955</option>
+      <option>1954</option>
+      <option>1953</option>
+    </select>
+  </div>
+</div>
+</div>
+
+<div class="form-row">
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1">Feminino</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">Masculino</label>
+</div>
+</div>
+<div class="row">
+  <p style="font-size:13px; color:#708090;  ">Ao clicar em Inscreva-se, você concorda com nossos <a href="">Termos</a>, </p>
+   <p style="font-size:13px; color:#708090;"><a href="">Política de Dados e Política de Cookies.</a> Você pode receber</p> 
+   <p style="font-size:13px; color:#708090;">notificações por SMS e pode cancelar isso quando quiser.</p>
+</div>
+
+<div class="row">
+  <button type="button" class="btn btn-success">Inscrever-se</button>
+</div>
+
 </form>
+</div>
 </div>
 
 
